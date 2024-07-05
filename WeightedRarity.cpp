@@ -17,6 +17,8 @@ int GetTotalWeight(const unordered_map<string, int> events_weight) {
     return total_weight;
 }
 
+// TESTING
+
 string WeightRandomizer(const unordered_map<string, int> events_weight) {
     int total_weight = GetTotalWeight(events_weight);
     int random_number = rand() % total_weight + 1;
